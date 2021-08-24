@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  align-items: center;
+  position: relative;
+  min-height: 44px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.header .left {
+  position: absolute;
+  left: 10px;
+}
+
+.header .right {
+  position: absolute;
+  right: 10px;
+}
+
+.header .center {
+  position: absolute;
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+}

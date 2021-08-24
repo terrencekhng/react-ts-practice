@@ -1,3 +1,7 @@
+p {
+  margin: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navigation-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  text-decoration: none;
 }
